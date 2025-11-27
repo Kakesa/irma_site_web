@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Recherche</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#4F46E5", // Using Indigo as a placeholder
+            "background-light": "#FFFFFF",
+            "background-dark": "#111827",
+            "text-light": "#1F2937", // Gray-800
+            "text-dark": "#F9FAFB", // Gray-50
+            "subtext-light": "#6B7280", // Gray-500
+            "subtext-dark": "#9CA3AF", // Gray-400
+            "border-light": "#E5E7EB", // Gray-200
+            "border-dark": "#374151", // Gray-700
+            "card-light": "#FFFFFF",
+            "card-dark": "#1F2937", // Gray-800
+          },
+          fontFamily: {
+            display: ["Roboto", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+          },
+        },
+      },
+    };
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<header class="py-6 border-b border-border-light dark:border-border-dark">
+<div class="flex justify-between items-center">
+<div class="flex items-center space-x-2">
+<span class="material-icons-outlined text-primary text-3xl">hub</span>
+<span class="font-bold text-xl">Aire D'Reka</span>
+</div>
+<nav class="hidden md:flex space-x-8">
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Accueil</a>
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Programmes</a>
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Conférences</a>
+<a class="font-medium text-primary dark:text-primary border-b-2 border-primary pb-1" href="#">Recherche</a>
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Témoignages</a>
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<button class="md:hidden">
+<span class="material-icons-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="py-16 lg:py-24">
+<section class="mb-16 lg:mb-24">
+<div class="max-w-4xl mx-auto text-center">
+<h1 class="text-3xl md:text-4xl font-bold mb-4">Recherche</h1>
+<p class="text-subtext-light dark:text-subtext-dark">Explorez nos publications, trouvez des chercheurs et restez informé.</p>
+</div>
+<div class="mt-12 flex flex-col md:flex-row gap-8">
+<div class="w-full md:w-1/4">
+<h2 class="font-bold mb-4">Filtres de publications</h2>
+<form class="space-y-4">
+<div>
+<label class="sr-only" for="titre">Titre</label>
+<input class="w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-card-dark focus:ring-primary focus:border-primary" id="titre" placeholder="Titre" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="auteur">Auteur</label>
+<input class="w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-card-dark focus:ring-primary focus:border-primary" id="auteur" placeholder="Auteur" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="periode">Période</label>
+<input class="w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-card-dark focus:ring-primary focus:border-primary" id="periode" placeholder="Période" type="text"/>
+</div>
+</form>
+</div>
+<div class="w-full md:w-3/4">
+<h2 class="font-bold mb-4">Toutes les Publications</h2>
+<div class="space-y-6">
+<div class="p-4 border border-border-light dark:border-border-dark rounded-lg flex flex-col sm:flex-row items-start gap-6">
+<img alt="Illustration de technologie et de jeunes." class="w-full sm:w-32 h-32 object-cover rounded-lg sm:flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlAQQTPJaMFfSksu3sGtCwEjKOwDp9lve8FbbQgDmOr9huUAmLQd4PdU9kWCz5zqEI7iiRq3UJWggVpU1mttd5rgj30ySfuKPI_MrfUNlMZkI52R81KzHW4iFE4Fsb6_epg8dcQB4EP3aCspJpnMdfNM6j4Ay1S50wZxvg4KQ9sGGlWtRG96pkTeo01Pw17QMpNrs-7GcTBr7OuBd_2Q9DNwof35HnEInmY1m80N0RR4qTQRsDyRU81rNHbQ_FaNeAeDwwM_c7nA75"/>
+<div class="flex-grow">
+<h3 class="font-bold text-lg">L'impact de la surfusion sur la nouvelle génération</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Dr. Emma Durand | Mars 2023</p>
+<p class="mt-2 text-sm leading-6">Analyse approfondie de comment les technologies émergentes façonnent la culture et les comportements des jeunes...</p>
+</div>
+<div class="w-full sm:w-auto mt-4 sm:mt-0 sm:ml-auto flex-shrink-0">
+<button class="w-full sm:w-auto px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En savoir plus</button>
+</div>
+</div>
+<div class="p-4 border border-border-light dark:border-border-dark rounded-lg flex flex-col sm:flex-row items-start gap-6">
+<img alt="Illustration de réseaux énergétiques intelligents." class="w-full sm:w-32 h-32 object-cover rounded-lg sm:flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC55-gn3nNV5f8Wd2BVhHnv2qyubRHEgIjVr0rpqDOr_agKD9mu2XrUyAq02QUT6bRmRQcrHkc6Hw-7SpINwvnb4fJNi7CyjUgUJwt_DM0FRpwFYV24lFn2YHR7tIbeAHfHa8ZVMGBY5FFew_eKAdSfgVTKC7cTf3SozUPb0jWoKk3FNTNtTjawh_xOMOMOO2bqrmlxDCf1lcDppRe9JEaNy9oq0zxh6U0yO1CrbSmN0Z7_YnSeaOx9o3HV3S22EC23raupzCpLxL4k"/>
+<div class="flex-grow">
+<h3 class="font-bold text-lg">Optimisation des réseaux énergétiques par l'apprentissage machine</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Prof. Marc Dubois | Février 2023</p>
+<p class="mt-2 text-sm leading-6">Ce papier explore l'utilisation d'algorithmes d'IA pour optimiser la distribution d'énergie dans les réseaux intelligents...</p>
+</div>
+<div class="w-full sm:w-auto mt-4 sm:mt-0 sm:ml-auto flex-shrink-0">
+<button class="w-full sm:w-auto px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En savoir plus</button>
+</div>
+</div>
+<div class="p-4 border border-border-light dark:border-border-dark rounded-lg flex flex-col sm:flex-row items-start gap-6">
+<img alt="Illustration de traitements médicaux." class="w-full sm:w-32 h-32 object-cover rounded-lg sm:flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ4W_Qjv5Hbws8yUv8HfR5pXj55BgyKtUkQqu4PdWBs6d6sDVTPdlLLWe_XV-R4_BXlQbp4BFtC1JBMRuNFSVmAf71EAC1pApLMW9j3PQweGOJeCUH3RK8iyYWuJ2FRctWvCcScLcZIFpsrziSFP2LKbofmf3N_kzZRlussF8i8Wzwoh0HCMXkwdvRSaXRqNUzi3B6ke9A0A14etHKzqLDP4WEei2C1kd-ORfCPM9p8zP-KoAY2yBgE5Gd_gsKOa8mDywCXVUvro_s"/>
+<div class="flex-grow">
+<h3 class="font-bold text-lg">Nouvelles approches ostéo-algiques pour les meilleures matières</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Dr. Sophie Martin | Janvier 2023</p>
+<p class="mt-2 text-sm leading-6">Étude comparative des nouveaux traitements non-invasifs pour les douleurs chroniques associées aux troubles musculo-squelettiques...</p>
+</div>
+<div class="w-full sm:w-auto mt-4 sm:mt-0 sm:ml-auto flex-shrink-0">
+<button class="w-full sm:w-auto px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En savoir plus</button>
+</div>
+</div>
+<div class="p-4 border border-border-light dark:border-border-dark rounded-lg flex flex-col sm:flex-row items-start gap-6">
+<img alt="Illustration de la biodiversité." class="w-full sm:w-32 h-32 object-cover rounded-lg sm:flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdzX5ZIJdpSkcULzB0kWeIrJKJ6FtIzalnnPeQR6LDiIVXDMswjbrnjwNbGHkZbraPzLY4P9_dnPJ7B3w_HbpnwawrfCq92ATmDzcR6euZ0JBFlwOSRiIngwk8cNLB7j1djeR7PoyG1jvAcFNeNG6VJ5ZNr1fULSWGwLi0F5NEafxVOvFGPhTxXABgMOJlwwSEgK4SQafS56GA8Ow-2Le9TYKKabNlBx02i5qJwZscExM8t4l62U1AjkK3GfsFXTlnUQd308ovtMQI"/>
+<div class="flex-grow">
+<h3 class="font-bold text-lg">La résilience des écosystèmes face au changement climatique</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Dr. Leo Lemoine | Décembre 2022</p>
+<p class="mt-2 text-sm leading-6">Cette recherche examine les facteurs de résilience des écosystèmes forestiers et marins face aux perturbations climatiques.</p>
+</div>
+<div class="w-full sm:w-auto mt-4 sm:mt-0 sm:ml-auto flex-shrink-0">
+<button class="w-full sm:w-auto px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En savoir plus</button>
+</div>
+</div>
+<div class="p-4 border border-border-light dark:border-border-dark rounded-lg flex flex-col sm:flex-row items-start gap-6">
+<img alt="Illustration de l'urbanisme moderne." class="w-full sm:w-32 h-32 object-cover rounded-lg sm:flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCv8iSGOX0jD9FOUJl7RpBDOaNrUrsxZoxlFw5B3tXAzIHDJgwFs4laZt-zQEf_r6vDASaqLrEKykwaRQMU-jx3P0TU685Oqs0IFLV8MBXOF8WU1JOXndOVyAOWNfEmScwS4cWvd1UFn4NBYFg2Ee3p9_w-kSmD74AVE1HP49rULr7Pnbx4A4YEoA9KjtiAZQXnMr4ThSTl2gO7mXrhirjvRIqKm5rm8o0QTf7Fo-aI63tNtUQWiKEWui00CDznXXlpdYbzZEY7J9Wg"/>
+<div class="flex-grow">
+<h3 class="font-bold text-lg">Urbanisme et bien-être : le cas des villes vertes</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Dr. Jean Dupont | Novembre 2022</p>
+<p class="mt-2 text-sm leading-6">Analyse de l'impact des espaces verts urbains sur la santé mentale et physique des citadins.</p>
+</div>
+<div class="w-full sm:w-auto mt-4 sm:mt-0 sm:ml-auto flex-shrink-0">
+<button class="w-full sm:w-auto px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En savoir plus</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-16 lg:mb-24">
+<div class="max-w-4xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold">Publications Récentes Mises en Avant</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="border border-border-light dark:border-border-dark rounded-lg p-6">
+<img alt="Illustration de systèmes complexes." class="w-full h-40 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqrdLCEsDG43WYwEpQ5K-L8Xsz3soIjP6vPEVji751DS4As_3XFTZIWboIbQ2_Z6b8Y5IaqERwHWfAKeUUePyYL51RzmUudnI9a9oaewF-GX87yhaF9cfZHmmv1jMb5sD5jMtk-OkeLPt5xE5F5OTp7xBQ9sb4LlBrgnTecCLdMCDTrS5wUrjCSMc0yXHrVDAZvd8N3NqZt4E1AuPtzWLbYDvZeOaW3MZnb_NTIVHHD11MtY3PElmWpNv5VEzExeNHd06eHGGnXGGt"/>
+<h3 class="font-bold text-lg">Interaction systémique</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Dr. Jean Dupont | Mai 2023</p>
+<p class="mt-2 text-sm leading-6">Une analyse des interactions complexes au sein des écosystèmes socio-techniques.</p>
+<button class="mt-4 w-full px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En lire plus</button>
+</div>
+<div class="border border-border-light dark:border-border-dark rounded-lg p-6">
+<img alt="Illustration d'un globe terrestre numérique." class="w-full h-40 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbor74CyTuwXpxIkt7Tfg6wECdOWNfp1qutcz-G4o4ir7XP_LlBlKriPYAMm1OrUJotTP4CS2GF1Zvwne47Bw1ak3mWak7Y4JWIxs9QvTJBhL3KgVF0n1YZmDxj0Xoc7lkLMxQOAohAMJn9S9OKp-27bh2f963z8a3E8yVD2mBtwRM9N4P8Nlb0aV1c7WLgFn9-nN2uW1qvHKuOtsLvEo4nQcksHidgMLG0OlzYV68-HuXjpfqhtYA8FatR3JHRS0OvE-GCxyVGZHH"/>
+<h3 class="font-bold text-lg">L'être cosmopolitique</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Dr. Marie Curie | Avril 2023</p>
+<p class="mt-2 text-sm leading-6">Exploration philosophique de la citoyenneté globale à l'ère du numérique.</p>
+<button class="mt-4 w-full px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En lire plus</button>
+</div>
+<div class="border border-border-light dark:border-border-dark rounded-lg p-6">
+<img alt="Illustration de politiques environnementales." class="w-full h-40 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4xTbgdOQvZqfh3DlZl2vulTje0M6qA7mn1OIcrOIWdm432ZQlASl2ThzoDBiMsvTkJCCNBFaTvWnXFnSbJe0h4UPEclH-1oyfZV3fKDGr9p7COszIyKk8BG8dIo5c0C_4fO56NJV8qI_M8pYDEgfRnUOIYoJ2NlHZXAB5FOq81puUgeCDsS66i__-82o8hAnwFLktqaKZzUKUBCdYkV5HevQlOMUgnswwrNhuypmWU_BAAQD-tNpaJ7B0WGkrjvyB-DKKrnyEOTuw"/>
+<h3 class="font-bold text-lg">L'MPPE post-présent</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mt-1">Par Prof. Louis Pasteur | Mars 2023</p>
+<p class="mt-2 text-sm leading-6">Un cadre prospectif pour l'évaluation des politiques publiques environnementales.</p>
+<button class="mt-4 w-full px-4 py-2 border border-border-light dark:border-border-dark rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">En lire plus</button>
+</div>
+</div>
+</section>
+<section>
+<div class="max-w-4xl mx-auto text-center mb-12">
+<h2 class="text-3xl font-bold">Découvrez nos Chercheurs</h2>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center">
+<img alt="Photo de profil de Dr. Emma Durand" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7LEwn_lDdWJUVxFVtfVxDtx36oTBLKDQ6kJlLLAe9mh-ljq2Aa8U92ZLqr4m65nq5AHL9CJAdyuHId-DWWhfzLtJZmDimOh3_JNQp3OP3v41k121oecQK2B0phbXfR73gh5aI31kuqWlPcVwKpuzju_TOVJ4XppEVXTCiNIs1vxYpLbpogQd6d9TzRgIy108EHtRc74eWtsZQjY5-I7umsif4LLTLIUn0smDx0HN0zQ4lmNMcn4N_vVZx9oD4e1b_SJcM0k-YBGzL"/>
+<h3 class="font-bold">Dr. Emma Durand</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark">Chef de projet</p>
+</div>
+<div class="text-center">
+<img alt="Photo de profil de Prof. Marc Dubois" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACvWbGJr-W_VblHyLzWqQ91LeRKr5L7E0R6e4HksEOPWiFcdf9vYGorZ4riE1f7tRGSRZDhpqlE1_WEh69hUJ4fc_n0N3gqwt3uHGvT-RALq7IJKzb6oWXwU77j0ciEqLTjvTzU-oIeD7MASw1wdQzhY3fdN3pRNnYn1ZKAnTxNAgCbsoLVKDXuSdWI8bBLqc1V57HrmB5fyl2o2opqTtLj8OFohIR1LZuNkEbV6VflultvA5iGKgr_yaDczCGNRR5zDcJP8POIUm4"/>
+<h3 class="font-bold">Prof. Marc Dubois</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark">Chercheur principal</p>
+</div>
+<div class="text-center">
+<img alt="Photo de profil de Dr. Sophie Martin" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcNlwhjH91N96LPSW4TcQClr8GvUl2m_s7IVOagPIPxjHDDNh2Xvrhf5cNPz_xuIrC9j8I67U4SiKolBgqeN9BR2iV5fGMmRldPxUnWUvfFOw2ry4XwOkcaB_PHYsvImfJAvvwzLrEAW1TJ7YaPbEPmUGq5Lh4PJmTwJjWtTzV_Fd0ZUlyhht5fnWRaYBZy3OmeUdcX3yHsIiKDS3wKAu8jMRcQzcULnpOptke0N8s3xtXA_OUfE5-SjlVToCG0KnO-uBHhy8WMq52"/>
+<h3 class="font-bold">Dr. Sophie Martin</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark">Chercheuse associée</p>
+</div>
+<div class="text-center">
+<img alt="Photo de profil de Dr. Leo Lemoine" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTHHozcBXNOLKoUaIBkP_6ve9ofYvmqch25LofbLQqWi5EkhiiVvMP0GX05XPv6CNxl-Tg6T-XnK-maQIqwjLp55NsAblOWT3WHGRwsDcjCAx3flt0G_8LntCPgq1Ph1VO332YAhBi-BNQ6BwGhMEqMF48yuKVwpyhB9TO_Z0iUucvBjEct8s85saZF3GZp-X9B79VghoPrmpk7qHDOqXDygM2BgCRF78iXuskFlSvFfL2jeuFoYzxokHCexnWyn28osHeiVm6A7DC"/>
+<h3 class="font-bold">Dr. Leo Lemoine</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark">Chercheur invité</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="py-12 border-t border-border-light dark:border-border-dark">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="space-y-4">
+<div class="flex items-center space-x-2">
+<span class="material-icons-outlined text-primary text-3xl">hub</span>
+<span class="font-bold text-xl">Aire D'Reka</span>
+</div>
+<p class="text-sm text-subtext-light dark:text-subtext-dark">© 2023 Aire D'Reka. Tous droits réservés.</p>
+<div class="flex space-x-4">
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary" href="#"><svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg></a>
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary" href="#"><svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg></a>
+<a class="text-subtext-light dark:text-subtext-dark hover:text-primary" href="#"><svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12.019c0 4.438 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12.019C22 6.477 17.523 2 12 2z" fill-rule="evenodd"></path></svg></a>
+</div>
+</div>
+<div>
+<h3 class="font-bold mb-4">Liens</h3>
+<ul class="space-y-2">
+<li><a class="text-sm text-subtext-light dark:text-subtext-dark hover:text-primary" href="#">Accueil</a></li>
+<li><a class="text-sm text-subtext-light dark:text-subtext-dark hover:text-primary" href="#">Programmes</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold mb-4">Ressources</h3>
+<ul class="space-y-2">
+<li><a class="text-sm text-subtext-light dark:text-subtext-dark hover:text-primary" href="#">Conférences</a></li>
+<li><a class="text-sm text-subtext-light dark:text-subtext-dark hover:text-primary" href="#">Témoignages</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold mb-4">Légal</h3>
+<ul class="space-y-2">
+<li><a class="text-sm text-subtext-light dark:text-subtext-dark hover:text-primary" href="#">Politique de Confidentialité</a></li>
+<li><a class="text-sm text-subtext-light dark:text-subtext-dark hover:text-primary" href="#">Conditions d'Utilisation</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

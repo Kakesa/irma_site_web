@@ -1,185 +1,221 @@
 <!DOCTYPE html>
-<html lang="fr"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Contact - FIRMA</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-<script>
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              primary: "#3b82f6", // blue-500
-              "background-light": "#ffffff",
-              "background-dark": "#121212",
-            },
-            fontFamily: {
-              display: ["Roboto", "sans-serif"],
-            },
-            borderRadius: {
-              DEFAULT: "0.5rem", // 8px
-            },
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Contact - FIRMA</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#3b82f6", // blue-500
+            "background-light": "#ffffff",
+            "background-dark": "#121212",
+          },
+          fontFamily: {
+            display: ["Roboto", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem", // 8px
           },
         },
-      };
-    </script>
-<style>
-        .material-icons {
-            vertical-align: middle;
-        }
-    </style>
-<style>
+      },
+    };
+  </script>
+  <style>
+    .material-icons {
+      vertical-align: middle;
+    }
+  </style>
+  <style>
     body {
       min-height: max(884px, 100dvh);
     }
   </style>
-<style>
+  <style>
     body {
       min-height: max(884px, 100dvh);
     }
   </style>
-  </head>
+</head>
+
 <body class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 font-display">
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<header class="py-6">
-<div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 pb-4">
-<div class="flex items-center space-x-2">
-<span class="material-icons text-primary text-3xl">hub</span>
-<span class="text-xl font-bold text-gray-900 dark:text-white">FIRMA</span>
-</div>
-<nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-600 dark:text-gray-300">
-<a class="hover:text-primary" href="#">Accueil</a>
-<a class="hover:text-primary" href="#">Programmes</a>
-<a class="hover:text-primary" href="#">Conférences</a>
-<a class="hover:text-primary" href="#">Recherche</a>
-<a class="text-primary font-semibold" href="#">Contact</a>
-</nav>
-<button class="md:hidden">
-<span class="material-icons text-gray-800 dark:text-gray-200">menu</span>
-</button>
-</div>
-</header>
-<main class="py-12 md:py-20">
-<div class="relative text-center mb-12">
-<div aria-hidden="true" class="absolute inset-0 flex items-center justify-center">
-<div class="w-48 h-48 bg-blue-100 dark:bg-blue-900/20 rounded-full opacity-30 blur-2xl"></div>
-</div>
-<h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white relative">Contactez FIRMA</h1>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
-<div class="lg:col-span-3">
-<h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-6">Envoyez-nous un message</h2>
-<form action="#" class="space-y-6" method="POST">
-<div>
-<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="nom">Votre nom</label>
-<input class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100" id="nom" name="nom" placeholder="John Doe" type="text"/>
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="email">Votre email</label>
-<input class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100" id="email" name="email" placeholder="vous@exemple.com" type="email"/>
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="sujet">Sujet</label>
-<input class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100" id="sujet" name="sujet" type="text"/>
-</div>
-<div>
-<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="message">Votre message
-<textarea class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100" id="message" name="message" rows="4"></textarea>
-</label></div>
-<div>
-<button class="inline-flex justify-center py-2 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary" type="submit">
-                                Envoyer
-                            </button>
-</div>
-</form>
-</div>
-<div class="lg:col-span-2">
-<h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-6">Nos coordonnées</h2>
-<div class="space-y-6 text-gray-600 dark:text-gray-300">
-<div class="flex items-start space-x-4">
-<span class="material-icons text-primary mt-1">location_on</span>
-<div>
-<h3 class="font-semibold text-gray-800 dark:text-gray-100">Adresse</h3>
-<p>123 Avenue de l'Innovation, 75001 Paris, France</p>
-</div>
-</div>
-<div class="flex items-start space-x-4">
-<span class="material-icons text-primary mt-1">phone</span>
-<div>
-<h3 class="font-semibold text-gray-800 dark:text-gray-100">Téléphone</h3>
-<p>+33 1 23 45 67 89</p>
-</div>
-</div>
-<div class="flex items-start space-x-4">
-<span class="material-icons text-primary mt-1">email</span>
-<div>
-<h3 class="font-semibold text-gray-800 dark:text-gray-100">Email</h3>
-<p>contact@firma.org</p>
-</div>
-</div>
-<div class="flex items-start space-x-4">
-<span class="material-icons text-primary mt-1">schedule</span>
-<div>
-<h3 class="font-semibold text-gray-800 dark:text-gray-100">Horaires</h3>
-<p>Lundi - Vendredi<br/>9:00 - 18:00</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section class="mt-16 md:mt-24">
-<h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">Où nous trouver ?</h2>
-<div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
-<img alt="Carte montrant l'emplacement de FIRMA à Paris." class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfS_JlEIbxPpyLPyBsa2lToosHNZqoNCX332YUsEJMYm1PMn5eK47DldGbn3vZpqVtlpJF8FMF4qx7E1IXWuNmlZ4CR1PR53rs4xv369imi3mWKQS0eoHz5NIXxCyJcYdwvXbSERoGUkZUxGEafYTd4OSTqPRVATKjwfK1E5MmIEFZj441JjjEgQrDIV0Mecq9a8yDxjydjW7qSJPTd1irZbZ54GmXuELC8zIFCHLEfbItnvmHiisKrdLjQz7T1cA9KSze6UxL0W3_"/>
-</div>
-</section>
-<section class="mt-16 md:mt-24 bg-gray-50 dark:bg-gray-800/50 rounded-lg p-8 md:p-12">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-<div class="md:col-span-1 flex justify-center">
-<img alt="Photo de la personne qui témoigne" class="w-32 h-32 rounded-full object-cover shadow-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH70nwAnunQbGWGxTpfmCSIyvgBINbL2jCiF_022m9mndP-I148sHPsxs7waCXKSNaC-ELzhXD2ZeVV8sutdRdnDqPeRZxwBSCydT5hH59F1fEqVjZ4jtHTaFXBphtIWUq5McZsjln1LuBGcvWKWm9yx2EdUytXJye9_ELchKIADu54ZPHwz8Q_6BktE_v8qnduexhuB03tRA8CCyfCnpNOUujpgslmRL0qDB2WSwmxqVgXJ3bf93iGvTImzrGmc6Ad0QglSgj2T0J"/>
-</div>
-<div class="md:col-span-2 text-center md:text-left">
-<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Un témoignage de notre impact</h2>
-<p class="text-gray-600 dark:text-gray-400 mb-6 italic">"Grâce à FIRMA, j'ai pu développer des compétences essentielles et élargir mon réseau professionnel. Les conférences sont d'une qualité exceptionnelle et m'ont ouvert de nouvelles perspectives."</p>
-<p class="font-semibold text-gray-800 dark:text-gray-200">- Dr. Élise Moreau</p>
-<p class="text-sm text-gray-500 dark:text-gray-400">Participante au programme 2023</p>
-<a class="mt-6 inline-block py-2 px-5 border border-gray-300 dark:border-gray-600 text-sm font-medium rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary dark:focus:ring-offset-background-dark" href="#">Découvrir tous les témoignages</a>
-</div>
-</div>
-</section>
-</main>
-<footer class="pt-12 pb-8 border-t border-gray-200 dark:border-gray-700 mt-16 md:mt-24">
-<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-<div class="md:col-span-2">
-<div class="flex items-center space-x-2 mb-4">
-<span class="material-icons text-primary text-3xl">hub</span>
-<span class="text-xl font-bold text-gray-900 dark:text-white">FIRMA</span>
-</div>
-<p class="text-sm text-gray-500 dark:text-gray-400 mb-4">© 2023 FIRMA. Tous droits réservés.</p>
-<div class="flex space-x-4">
-<a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#"><svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg></a>
-<a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#"><svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg></a>
-<a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#"><svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg></a>
-</div>
-</div>
-<div>
-<h3 class="text-sm font-semibold text-gray-900 dark:text-white tracking-wider uppercase mb-4">Liens</h3>
-<ul class="space-y-2 text-sm">
-<li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Accueil</a></li>
-<li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Programmes</a></li>
-</ul>
-</div>
-<div>
-<h3 class="text-sm font-semibold text-gray-900 dark:text-white tracking-wider uppercase mb-4">Ressources</h3>
-<ul class="space-y-2 text-sm">
-<li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Conférences</a></li>
-<li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Recherche</a></li>
-</ul>
-</div>
-</div>
-</footer>
-</div>
-</body></html>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="py-6">
+      <div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 pb-4">
+        <div class="flex items-center space-x-2">
+          <span class="material-icons text-primary text-3xl">hub</span>
+          <span class="text-xl font-bold text-gray-900 dark:text-white">FIRMA</span>
+        </div>
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-600 dark:text-gray-300">
+          <a class="hover:text-primary" href="#">Accueil</a>
+          <a class="hover:text-primary" href="#">Programmes</a>
+          <a class="hover:text-primary" href="#">Conférences</a>
+          <a class="hover:text-primary" href="#">Recherche</a>
+          <a class="text-primary font-semibold" href="#">Contact</a>
+        </nav>
+        <button class="md:hidden">
+          <span class="material-icons text-gray-800 dark:text-gray-200">menu</span>
+        </button>
+      </div>
+    </header>
+    <main class="py-12 md:py-20">
+      <div class="relative text-center mb-12">
+        <div aria-hidden="true" class="absolute inset-0 flex items-center justify-center">
+          <div class="w-48 h-48 bg-blue-100 dark:bg-blue-900/20 rounded-full opacity-30 blur-2xl"></div>
+        </div>
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white relative">Contactez FIRMA</h1>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
+        <div class="lg:col-span-3">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-6">Envoyez-nous un message</h2>
+          <form action="#" class="space-y-6" method="POST">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="nom">Votre nom</label>
+              <input
+                class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100"
+                id="nom" name="nom" placeholder="John Doe" type="text" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="email">Votre email</label>
+              <input
+                class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100"
+                id="email" name="email" placeholder="vous@exemple.com" type="email" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="sujet">Sujet</label>
+              <input
+                class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100"
+                id="sujet" name="sujet" type="text" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="message">Votre message
+                <textarea
+                  class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-800 shadow-sm focus:border-primary focus:ring-primary sm:text-sm text-gray-900 dark:text-gray-100"
+                  id="message" name="message" rows="4"></textarea>
+              </label>
+            </div>
+            <div>
+              <button
+                class="inline-flex justify-center py-2 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+                type="submit">
+                Envoyer
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="lg:col-span-2">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-6">Nos coordonnées</h2>
+          <div class="space-y-6 text-gray-600 dark:text-gray-300">
+            <div class="flex items-start space-x-4">
+              <span class="material-icons text-primary mt-1">location_on</span>
+              <div>
+                <h3 class="font-semibold text-gray-800 dark:text-gray-100">Adresse</h3>
+                <p>123 Avenue de l'Innovation, 75001 Paris, France</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <span class="material-icons text-primary mt-1">phone</span>
+              <div>
+                <h3 class="font-semibold text-gray-800 dark:text-gray-100">Téléphone</h3>
+                <p>+33 1 23 45 67 89</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <span class="material-icons text-primary mt-1">email</span>
+              <div>
+                <h3 class="font-semibold text-gray-800 dark:text-gray-100">Email</h3>
+                <p>contact@firma.org</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <span class="material-icons text-primary mt-1">schedule</span>
+              <div>
+                <h3 class="font-semibold text-gray-800 dark:text-gray-100">Horaires</h3>
+                <p>Lundi - Vendredi<br />9:00 - 18:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="mt-16 md:mt-24">
+        <h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">Où nous trouver ?</h2>
+        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+          <img alt="Carte montrant l'emplacement de FIRMA à Paris." class="w-full h-full object-cover"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfS_JlEIbxPpyLPyBsa2lToosHNZqoNCX332YUsEJMYm1PMn5eK47DldGbn3vZpqVtlpJF8FMF4qx7E1IXWuNmlZ4CR1PR53rs4xv369imi3mWKQS0eoHz5NIXxCyJcYdwvXbSERoGUkZUxGEafYTd4OSTqPRVATKjwfK1E5MmIEFZj441JjjEgQrDIV0Mecq9a8yDxjydjW7qSJPTd1irZbZ54GmXuELC8zIFCHLEfbItnvmHiisKrdLjQz7T1cA9KSze6UxL0W3_" />
+        </div>
+      </section>
+      <section class="mt-16 md:mt-24 bg-gray-50 dark:bg-gray-800/50 rounded-lg p-8 md:p-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+          <div class="md:col-span-1 flex justify-center">
+            <img alt="Photo de la personne qui témoigne" class="w-32 h-32 rounded-full object-cover shadow-lg"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH70nwAnunQbGWGxTpfmCSIyvgBINbL2jCiF_022m9mndP-I148sHPsxs7waCXKSNaC-ELzhXD2ZeVV8sutdRdnDqPeRZxwBSCydT5hH59F1fEqVjZ4jtHTaFXBphtIWUq5McZsjln1LuBGcvWKWm9yx2EdUytXJye9_ELchKIADu54ZPHwz8Q_6BktE_v8qnduexhuB03tRA8CCyfCnpNOUujpgslmRL0qDB2WSwmxqVgXJ3bf93iGvTImzrGmc6Ad0QglSgj2T0J" />
+          </div>
+          <div class="md:col-span-2 text-center md:text-left">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Un témoignage de notre impact</h2>
+            <p class="text-gray-600 dark:text-gray-400 mb-6 italic">"Grâce à FIRMA, j'ai pu développer des compétences
+              essentielles et élargir mon réseau professionnel. Les conférences sont d'une qualité exceptionnelle et
+              m'ont ouvert de nouvelles perspectives."</p>
+            <p class="font-semibold text-gray-800 dark:text-gray-200">- Dr. Élise Moreau</p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">Participante au programme 2023</p>
+            <a class="mt-6 inline-block py-2 px-5 border border-gray-300 dark:border-gray-600 text-sm font-medium rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary dark:focus:ring-offset-background-dark"
+              href="#">Découvrir tous les témoignages</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pt-12 pb-8 border-t border-gray-200 dark:border-gray-700 mt-16 md:mt-24">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="md:col-span-2">
+          <div class="flex items-center space-x-2 mb-4">
+            <span class="material-icons text-primary text-3xl">hub</span>
+            <span class="text-xl font-bold text-gray-900 dark:text-white">FIRMA</span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">© 2023 FIRMA. Tous droits réservés.</p>
+          <div class="flex space-x-4">
+            <a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#"><svg aria-hidden="true"
+                class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path clip-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  fill-rule="evenodd"></path>
+              </svg></a>
+            <a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#"><svg aria-hidden="true"
+                class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                </path>
+              </svg></a>
+            <a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#"><svg aria-hidden="true"
+                class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path clip-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  fill-rule="evenodd"></path>
+              </svg></a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-gray-900 dark:text-white tracking-wider uppercase mb-4">Liens</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Accueil</a></li>
+            <li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Programmes</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-gray-900 dark:text-white tracking-wider uppercase mb-4">Ressources</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Conférences</a></li>
+            <li><a class="text-gray-500 dark:text-gray-400 hover:text-primary" href="#">Recherche</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

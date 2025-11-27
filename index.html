@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html class="scroll-smooth" lang="fr"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Accueil - Organisation</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-<script>
+<html class="scroll-smooth" lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Accueil - Organisation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <script>
     tailwind.config = {
       darkMode: "class",
       theme: {
@@ -26,206 +28,273 @@
       },
     };
   </script>
-<style>
+  <style>
     body {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
   </style>
-<style>
+  <style>
     body {
       min-height: max(884px, 100dvh);
     }
   </style>
-<style>
+  <style>
     body {
       min-height: max(884px, 100dvh);
     }
   </style>
-  </head>
+</head>
+
 <body class="font-display bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<header class="py-6 border-b border-gray-200 dark:border-gray-800">
-<div class="flex justify-between items-center">
-<div class="flex items-center gap-2">
-<span class="material-icons-outlined text-primary dark:text-gray-100">interests</span>
-<span class="font-bold text-lg text-gray-900 dark:text-white">Site Web</span>
-</div>
-<nav class="hidden md:flex gap-8">
-<a class="text-sm font-medium text-primary dark:text-white" href="#">Accueil</a>
-<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="/programme.html">Programmes</a>
-<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="/conferences.html">Conférences</a>
-<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="/search.html">Recherche</a>
-<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">Témoignages</a>
-<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="/contact.html">Contact</a>
-</nav>
-<button class="md:hidden p-2 rounded-md">
-<span class="material-icons-outlined text-gray-800 dark:text-gray-200">menu</span>
-</button>
-</div>
-</header>
-<main>
-<section class="py-20 md:py-28">
-<div class="grid md:grid-cols-2 gap-12 items-center">
-<div class="space-y-6">
-<h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight">Découvrez nos programmes et événements à venir</h1>
-<p class="text-gray-600 dark:text-gray-400">Nous offrons des programmes de recherche de pointe, des formations et des événements pour inspirer, connecter et provoquer le changement.</p>
-</div>
-<div class="w-full h-80 bg-gray-100 dark:bg-gray-800 rounded-lg">
-<img alt="Conférence animée dans un auditorium moderne" class="w-full h-full object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC64eUiGD6LcjGBw32nRHrHtjM2kBpPCgpqqzKvwagd3Tqk_doqtqjeylglVHbqHaCBf6XwHgCVBpBa-R_PyaEENp7l3Qo54YSAa9hlmiLsCsl0w9aj-HCNhAyNgRfrhgox3LRxk4RlYFXlH1Bai_YUhLL0DSj8mu0T_tNIj95KtkuzZF0ROKFysJljD3UQm_ni3t70UYL9Rkk8wTOHB1fST72foUTZIPMeKoGJe5jj2ZJwrZ6JsBanmdsdWF25UiQWHxVNq7Fknjro"/>
-</div>
-</div>
-</section>
-<section class="py-16 text-center">
-<div class="max-w-3xl mx-auto">
-<h2 class="text-3xl font-bold text-gray-900 dark:text-white">Notre Mission : Inspirer, Connecter, Innover</h2>
-<p class="mt-4 text-gray-600 dark:text-gray-400">Nous engageons à promouvoir l'excellence académique, à faciliter des collaborations interdisciplinaires et à former la prochaine génération de leaders et de chercheurs. Nous visons à transformer des idées en actions qui ont un impact tangible sur la société et le monde de la recherche.</p>
-</div>
-</section>
-<section class="py-16">
-<h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Nos Programmes Phares</h2>
-<div class="grid md:grid-cols-3 gap-8">
-<div class="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-lg border border-gray-200 dark:border-gray-800">
-<img alt="Chercheurs collaborant dans un laboratoire" class="w-full h-40 object-cover rounded-md mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4_mitsFNqVo0sE_qa5QEZzXrfy1Dn3fK7owHqX6g3sU50x9R7CuqX67MrfSu_rD2p2kvWWCTuGAuIK_3aZILoHNfSULDntUwencDDqRMGBfbqXR0DZvWsl1KINUTcPN-ipq4Jhoar5ao6OFAjGfAuj_-DXiPwyeJ5GzXwEjW1F2zVS78ChmmLV9zmXIP5CpfK23oWay80UsGDlJwFHolkX6k8tjRBZh3o61h4zli5sraDwopC_guWdG8qen4Uw1IeFZlFukBzMFSC"/>
-<h3 class="font-semibold text-lg text-gray-900 dark:text-white">Programme Interdisciplinaire Avancé</h3>
-<p class="text-sm text-gray-600 dark:text-gray-400 mt-2 mb-4">Un programme intensif qui rassemble des chercheurs de divers domaines pour collaborer sur des défis complexes.</p>
-<a class="text-sm font-medium text-primary dark:text-gray-100 border border-gray-300 dark:border-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors inline-block" href="#">En savoir plus</a>
-</div>
-<div class="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-lg border border-gray-200 dark:border-gray-800">
-<img alt="Groupe de professionnels en formation de leadership" class="w-full h-40 object-cover rounded-md mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBQKfn0FiiI6-5I2RBHf_DhPSDJkomzoNZzack0KKZBVhzcfajE8Zwwf1LmH_UJf0eEhfO_JbP7QPzqFFIvXZDpjBFL7rzp5bhQmAWj3FbHuq8ezclc-41ibRk7Xt-W2Iq61KIf_5M3GboLFEj12DApPlAn0IqvfKmt4DEpxX2-9XvUBGLzhu41eE27dTTt3erpjYueVXjc2zX-o32g9yCn1z9pS-HXoUZLbNUIpl5mksJ3y_sOYnHXFhJUdF8HRbqhCRqZDN4BN4E"/>
-<h3 class="font-semibold text-lg text-gray-900 dark:text-white">Formation Leadership en Recherche</h3>
-<p class="text-sm text-gray-600 dark:text-gray-400 mt-2 mb-4">Développez vos compétences en leadership et gestion de projets de recherche pour mener des équipes performantes.</p>
-<a class="text-sm font-medium text-primary dark:text-gray-100 border border-gray-300 dark:border-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors inline-block" href="#">En savoir plus</a>
-</div>
-<div class="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-lg border border-gray-200 dark:border-gray-800">
-<img alt="Personne interagissant avec une interface technologique" class="w-full h-40 object-cover rounded-md mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdi-xJtJOHPy8ESyOK8LFTpTLWreF1berwQw6LCKZQhZmXqHnLagTAHGkyUmq7OBR375-sEhWoO9PdtvqbBbNBOcAikN0GX4_eBdDRHpAFPLgFpA3Vgv6DWqGMp1oH4Zq4wAQqo_p6VvzqHdJWx_K1J5K8qqtnCYpVBeoNcs4A27CBbgkPo0L0ez3MeGSd43CyG72b1CZbWGlVX-MdZlEVZ4GYyhcqWiSbWHVYVWXdcf6LnHrybtfmzXZJa7qDpq_HUgT13G3luNAz"/>
-<h3 class="font-semibold text-lg text-gray-900 dark:text-white">Atelier d'Innovation Technologique</h3>
-<p class="text-sm text-gray-600 dark:text-gray-400 mt-2 mb-4">Explorez les dernières avancées technologiques et apprenez à les intégrer dans vos projets de recherche et développement.</p>
-<a class="text-sm font-medium text-primary dark:text-gray-100 border border-gray-300 dark:border-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors inline-block" href="#">En savoir plus</a>
-</div>
-</div>
-</section>
-<section class="py-16">
-<h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Prochaines Conférences et Événements</h2>
-<div class="space-y-8 max-w-4xl mx-auto">
-<div class="flex flex-col sm:flex-row gap-6 p-4 border-b border-gray-200 dark:border-gray-800 pb-8">
-<div class="flex items-start gap-4">
-<div class="text-center">
-<p class="text-lg font-bold text-primary dark:text-gray-100">15</p>
-<p class="text-sm text-gray-500 dark:text-gray-400">Juin</p>
-</div>
-<div class="w-px bg-gray-200 dark:bg-gray-700 self-stretch"></div>
-</div>
-<div class="flex-grow">
-<h3 class="font-semibold text-lg text-gray-900 dark:text-white">Colloque annuel sur l'éthique en recherche</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">9:00 - 17:00 | Auditorium Principal</p>
-<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Une exploration approfondie des dilemmes éthiques dans la recherche contemporaine, avec des experts de renommée internationale.</p>
-</div>
-<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors self-start sm:self-center shrink-0" href="#">S'inscrire</a>
-</div>
-<div class="flex flex-col sm:flex-row gap-6 p-4">
-<div class="flex items-start gap-4">
-<div class="text-center">
-<p class="text-lg font-bold text-primary dark:text-gray-100">22</p>
-<p class="text-sm text-gray-500 dark:text-gray-400">Juil</p>
-</div>
-<div class="w-px bg-gray-200 dark:bg-gray-700 self-stretch"></div>
-</div>
-<div class="flex-grow">
-<h3 class="font-semibold text-lg text-gray-900 dark:text-white">Forum sur les nouvelles frontières de la science</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">10:00 - 16:00 | Salle de Conférence B</p>
-<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Présentations des dernières découvertes dans divers domaines scientifiques et opportunités de réseautage avec des pionniers du secteur.</p>
-</div>
-<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors self-start sm:self-center shrink-0" href="#">Détails</a>
-</div>
-</div>
-</section>
-<section class="py-16">
-<h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Recherche Récente et Publications</h2>
-<div class="grid md:grid-cols-3 gap-8">
-<div class="space-y-4">
-<img alt="Illustration de l'activité cérébrale" class="w-full h-40 object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNkXqkM_ZUmiuefhMbd5rIhQOrOlrILmTpV3uVdjjRZ2llH-5uSXa8ALqriAjyqGno_-4y4bqjsQKdZy1YOBC_AGHyUxAGd5LrOqw7ypQ4zxTnZ58hcNR-g25S6xhWFIIGuW28jegI1iltqROC7sunIrvs73BooU-YWK5j-04NJhhbeTbCaCysAW0iEtVxvxWdHnciLuKQE7HIuCwqFlBAZjE4mkJavOIMsPux2JUjyJecRbQ8gUK4vmmHpjawERJOWCs1I9tdsgQR"/>
-<div class="space-y-2">
-<h3 class="font-semibold text-gray-900 dark:text-white">Avancées en neuro-économie</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400">Dr. H. Lambert | Mai 2024</p>
-</div>
-</div>
-<div class="space-y-4">
-<img alt="Coraux sous-marins colorés" class="w-full h-40 object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjBVsK18FsHyPZHZU-_PTQhJMHz8Das2Dlg0lCl-CWlYKOuW4bJ-DGxrkhHI7GyaeMxaeheWoDkJ9ZCGyakbwUhiV0skYBUfj2bSphmXvRIeywqGeskNDKz7h-fh0eO2lP_tk3lYVItcbfPhsqQibpJb0cPmA5xq8-DWCk9M9UCxpkMZ-7kDgwY_QntkOYdLOjOYgqIya5pD-e-O8kuTl4TP00hGc5D6XOanvYVtR1o4cqgV3ZfBgNAxpImlK1YhgjomJGioNlUbzO"/>
-<div class="space-y-2">
-<h3 class="font-semibold text-gray-900 dark:text-white">Impact du changement climatique sur les écosystèmes marins</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400">Pr. S. Dubois | Avril 2024</p>
-</div>
-</div>
-<div class="space-y-4">
-<img alt="Visualisation de données d'un réseau neuronal" class="w-full h-40 object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv06bUP115g9WIdNmGHF5F2m8HlGnmerUe-Rp0Cs3rwZL5Lj6btE1B8MOiTjE5PJG5bx72JZls6mr1-cSHvCao4ODr7OrGOy4ebnMS00Aw25g-ATth7cB1Ps_-WRpJwSqyfvhNFK8kZK1wkFBl9FyKRBWAm4V0aAdtRpY8M27G-2LOx5jgNUjZ_H64y2O_9rzxGHByJjKgSLg2OB1yA7B8UCVWTaL2v3zuPsXWcmEBEeWR4Xwr6Je4gZAyJEL4HlVFjLjoHVupTvYc"/>
-<div class="space-y-2">
-<h3 class="font-semibold text-gray-900 dark:text-white">Optimisation des algorithmes d'apprentissage profond</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400">Dr. A. Moreau | Mars 2024</p>
-</div>
-</div>
-</div>
-</section>
-<section class="py-16 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
-<h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Ce que disent nos Participants</h2>
-<div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-<div class="flex flex-col items-center text-center">
-<img alt="Photo de profil de Marie Leclerc" class="w-20 h-20 rounded-full mb-4 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeO_dtBucKXqqi5x5dIIyEb1OXxpUrE3wxKPexuDJiuNPzIx_-OYixdG8e5QAPBBxR1SL10_xguMwpnvp1j6a92nrD6obSotV9f2_P505N1UW5ox8bCSs5emLeJEsDfB5e5Ta0M1U6G5VfSo8-TZZJ4CHF3JCs5A57F3ZU7jFkfze036p_ZrAA4r5tRJNS6IGKf3gI_82MGVi4R-S1IF2SHMVWFbEZzXHOlaLAlPDZs3npn8DlnVLMjh8OX2utcwpR56IZsuJz4IUL"/>
-<blockquote class="text-gray-600 dark:text-gray-400">"Ce programme a été une expérience de transformation. J'ai acquis non seulement des connaissances précieuses, mais aussi un réseau de collaborateurs passionnés et inspirants."</blockquote>
-<p class="mt-4 font-semibold text-gray-800 dark:text-gray-200">Marie Leclerc, Chercheuse Postdoctorale</p>
-</div>
-<div class="flex flex-col items-center text-center">
-<img alt="Photo de profil d'Alexandre Martin" class="w-20 h-20 rounded-full mb-4 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvL8X9UC8fzaE8d7UhqqAoxWASAYgmPSJxVFfRwIFEINTD7cpngosqE0dmdEuPgJKIKT6tRanzNzMXFZS6g4eJWbveenNSIs41lCSXcOLHpyhqB8ptL_z2PHr-6QpqPkm9j5KED3YgAD5PP5gYz03irX7QA0mGZvZCv-JrZ16EU5HJta97p_BYV9VHwfZfQdRqsak6abwi5-zWAcVRzuGVHyXPHPIYqOX5xlLZXv-bJZ4V8zHuoC4h1UCDxvex_J8RHUgpJ_unvMW4"/>
-<blockquote class="text-gray-600 dark:text-gray-400">"L'atelier sur le leadership m'a donné les outils et la confiance nécessaires pour diriger mon équipe de recherche vers de nouveaux sommets. Hautement recommandé."</blockquote>
-<p class="mt-4 font-semibold text-gray-800 dark:text-gray-200">Alexandre Martin, Chef de Laboratoire</p>
-</div>
-</div>
-</section>
-</main>
-<footer class="py-16 mt-20 border-t border-gray-200 dark:border-gray-800">
-<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-<div class="space-y-4">
-<div class="flex items-center gap-2">
-<span class="material-icons-outlined text-primary dark:text-gray-100">interests</span>
-<span class="font-bold text-lg text-gray-900 dark:text-white">Site Web</span>
-</div>
-<p class="text-sm text-gray-500 dark:text-gray-400">© 2024 Site Web. Tous droits réservés.</p>
-<div class="flex space-x-4">
-<a class="text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">
-<svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
-<span class="sr-only">Facebook</span>
-</a>
-<a class="text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">
-<svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
-<span class="sr-only">Twitter</span>
-</a>
-<a class="text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">
-<svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
-<span class="sr-only">LinkedIn</span>
-</a>
-</div>
-</div>
-<div>
-<h3 class="text-sm font-semibold text-gray-900 dark:text-white">Liens</h3>
-<ul class="mt-4 space-y-2">
-<li><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">Accueil</a></li>
-<li><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">Programmes</a></li>
-</ul>
-</div>
-<div>
-<h3 class="text-sm font-semibold text-gray-900 dark:text-white">Ressources</h3>
-<ul class="mt-4 space-y-2">
-<li><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">Conférences</a></li>
-<li><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">Témoignages</a></li>
-</ul>
-</div>
-<div>
-<h3 class="text-sm font-semibold text-gray-900 dark:text-white">Légal</h3>
-<ul class="mt-4 space-y-2">
-<li><a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">Politique de Confidentialité</a></li>
-</ul>
-</div>
-</div>
-</footer>
-</div>
-</body></html>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="py-6 border-b border-gray-200 dark:border-gray-800">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center gap-2">
+          <span class="material-icons-outlined text-primary dark:text-gray-100">interests</span>
+          <span class="font-bold text-lg text-gray-900 dark:text-white">Site Web</span>
+        </div>
+        <nav class="hidden md:flex gap-8">
+          <a class="text-sm font-medium text-primary dark:text-white" href="#">Accueil</a>
+          <a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+            href="/programme.html">Programmes</a>
+          <a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+            href="/conferences.html">Conférences</a>
+          <a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+            href="/search.html">Recherche</a>
+          <a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+            href="#">Témoignages</a>
+          <a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+            href="/contact.html">Contact</a>
+        </nav>
+        <button class="md:hidden p-2 rounded-md">
+          <span class="material-icons-outlined text-gray-800 dark:text-gray-200">menu</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="py-20 md:py-28">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight">Découvrez nos
+              programmes et événements à venir</h1>
+            <p class="text-gray-600 dark:text-gray-400">Nous offrons des programmes de recherche de pointe, des
+              formations et des événements pour inspirer, connecter et provoquer le changement.</p>
+          </div>
+          <div class="w-full h-80 bg-gray-100 dark:bg-gray-800 rounded-lg">
+            <img alt="Conférence animée dans un auditorium moderne" class="w-full h-full object-cover rounded-lg"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC64eUiGD6LcjGBw32nRHrHtjM2kBpPCgpqqzKvwagd3Tqk_doqtqjeylglVHbqHaCBf6XwHgCVBpBa-R_PyaEENp7l3Qo54YSAa9hlmiLsCsl0w9aj-HCNhAyNgRfrhgox3LRxk4RlYFXlH1Bai_YUhLL0DSj8mu0T_tNIj95KtkuzZF0ROKFysJljD3UQm_ni3t70UYL9Rkk8wTOHB1fST72foUTZIPMeKoGJe5jj2ZJwrZ6JsBanmdsdWF25UiQWHxVNq7Fknjro" />
+          </div>
+        </div>
+      </section>
+      <section class="py-16 text-center">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Notre Mission : Inspirer, Connecter, Innover</h2>
+          <p class="mt-4 text-gray-600 dark:text-gray-400">Nous engageons à promouvoir l'excellence académique, à
+            faciliter des collaborations interdisciplinaires et à former la prochaine génération de leaders et de
+            chercheurs. Nous visons à transformer des idées en actions qui ont un impact tangible sur la société et le
+            monde de la recherche.</p>
+        </div>
+      </section>
+      <section class="py-16">
+        <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Nos Programmes Phares</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-lg border border-gray-200 dark:border-gray-800">
+            <img alt="Chercheurs collaborant dans un laboratoire" class="w-full h-40 object-cover rounded-md mb-4"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4_mitsFNqVo0sE_qa5QEZzXrfy1Dn3fK7owHqX6g3sU50x9R7CuqX67MrfSu_rD2p2kvWWCTuGAuIK_3aZILoHNfSULDntUwencDDqRMGBfbqXR0DZvWsl1KINUTcPN-ipq4Jhoar5ao6OFAjGfAuj_-DXiPwyeJ5GzXwEjW1F2zVS78ChmmLV9zmXIP5CpfK23oWay80UsGDlJwFHolkX6k8tjRBZh3o61h4zli5sraDwopC_guWdG8qen4Uw1IeFZlFukBzMFSC" />
+            <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Programme Interdisciplinaire Avancé</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mt-2 mb-4">Un programme intensif qui rassemble des
+              chercheurs de divers domaines pour collaborer sur des défis complexes.</p>
+            <a class="text-sm font-medium text-primary dark:text-gray-100 border border-gray-300 dark:border-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors inline-block"
+              href="#">En savoir plus</a>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-lg border border-gray-200 dark:border-gray-800">
+            <img alt="Groupe de professionnels en formation de leadership"
+              class="w-full h-40 object-cover rounded-md mb-4"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBQKfn0FiiI6-5I2RBHf_DhPSDJkomzoNZzack0KKZBVhzcfajE8Zwwf1LmH_UJf0eEhfO_JbP7QPzqFFIvXZDpjBFL7rzp5bhQmAWj3FbHuq8ezclc-41ibRk7Xt-W2Iq61KIf_5M3GboLFEj12DApPlAn0IqvfKmt4DEpxX2-9XvUBGLzhu41eE27dTTt3erpjYueVXjc2zX-o32g9yCn1z9pS-HXoUZLbNUIpl5mksJ3y_sOYnHXFhJUdF8HRbqhCRqZDN4BN4E" />
+            <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Formation Leadership en Recherche</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mt-2 mb-4">Développez vos compétences en leadership et
+              gestion de projets de recherche pour mener des équipes performantes.</p>
+            <a class="text-sm font-medium text-primary dark:text-gray-100 border border-gray-300 dark:border-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors inline-block"
+              href="#">En savoir plus</a>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-lg border border-gray-200 dark:border-gray-800">
+            <img alt="Personne interagissant avec une interface technologique"
+              class="w-full h-40 object-cover rounded-md mb-4"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdi-xJtJOHPy8ESyOK8LFTpTLWreF1berwQw6LCKZQhZmXqHnLagTAHGkyUmq7OBR375-sEhWoO9PdtvqbBbNBOcAikN0GX4_eBdDRHpAFPLgFpA3Vgv6DWqGMp1oH4Zq4wAQqo_p6VvzqHdJWx_K1J5K8qqtnCYpVBeoNcs4A27CBbgkPo0L0ez3MeGSd43CyG72b1CZbWGlVX-MdZlEVZ4GYyhcqWiSbWHVYVWXdcf6LnHrybtfmzXZJa7qDpq_HUgT13G3luNAz" />
+            <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Atelier d'Innovation Technologique</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mt-2 mb-4">Explorez les dernières avancées technologiques
+              et apprenez à les intégrer dans vos projets de recherche et développement.</p>
+            <a class="text-sm font-medium text-primary dark:text-gray-100 border border-gray-300 dark:border-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors inline-block"
+              href="#">En savoir plus</a>
+          </div>
+        </div>
+      </section>
+      <section class="py-16">
+        <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Prochaines Conférences et
+          Événements</h2>
+        <div class="space-y-8 max-w-4xl mx-auto">
+          <div class="flex flex-col sm:flex-row gap-6 p-4 border-b border-gray-200 dark:border-gray-800 pb-8">
+            <div class="flex items-start gap-4">
+              <div class="text-center">
+                <p class="text-lg font-bold text-primary dark:text-gray-100">15</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Juin</p>
+              </div>
+              <div class="w-px bg-gray-200 dark:bg-gray-700 self-stretch"></div>
+            </div>
+            <div class="flex-grow">
+              <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Colloque annuel sur l'éthique en recherche
+              </h3>
+              <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">9:00 - 17:00 | Auditorium Principal</p>
+              <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Une exploration approfondie des dilemmes éthiques
+                dans la recherche contemporaine, avec des experts de renommée internationale.</p>
+            </div>
+            <a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors self-start sm:self-center shrink-0"
+              href="#">S'inscrire</a>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-6 p-4">
+            <div class="flex items-start gap-4">
+              <div class="text-center">
+                <p class="text-lg font-bold text-primary dark:text-gray-100">22</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Juil</p>
+              </div>
+              <div class="w-px bg-gray-200 dark:bg-gray-700 self-stretch"></div>
+            </div>
+            <div class="flex-grow">
+              <h3 class="font-semibold text-lg text-gray-900 dark:text-white">Forum sur les nouvelles frontières de la
+                science</h3>
+              <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">10:00 - 16:00 | Salle de Conférence B</p>
+              <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Présentations des dernières découvertes dans
+                divers domaines scientifiques et opportunités de réseautage avec des pionniers du secteur.</p>
+            </div>
+            <a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors self-start sm:self-center shrink-0"
+              href="#">Détails</a>
+          </div>
+        </div>
+      </section>
+      <section class="py-16">
+        <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Recherche Récente et Publications
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="space-y-4">
+            <img alt="Illustration de l'activité cérébrale" class="w-full h-40 object-cover rounded-lg"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNkXqkM_ZUmiuefhMbd5rIhQOrOlrILmTpV3uVdjjRZ2llH-5uSXa8ALqriAjyqGno_-4y4bqjsQKdZy1YOBC_AGHyUxAGd5LrOqw7ypQ4zxTnZ58hcNR-g25S6xhWFIIGuW28jegI1iltqROC7sunIrvs73BooU-YWK5j-04NJhhbeTbCaCysAW0iEtVxvxWdHnciLuKQE7HIuCwqFlBAZjE4mkJavOIMsPux2JUjyJecRbQ8gUK4vmmHpjawERJOWCs1I9tdsgQR" />
+            <div class="space-y-2">
+              <h3 class="font-semibold text-gray-900 dark:text-white">Avancées en neuro-économie</h3>
+              <p class="text-sm text-gray-500 dark:text-gray-400">Dr. H. Lambert | Mai 2024</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="Coraux sous-marins colorés" class="w-full h-40 object-cover rounded-lg"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjBVsK18FsHyPZHZU-_PTQhJMHz8Das2Dlg0lCl-CWlYKOuW4bJ-DGxrkhHI7GyaeMxaeheWoDkJ9ZCGyakbwUhiV0skYBUfj2bSphmXvRIeywqGeskNDKz7h-fh0eO2lP_tk3lYVItcbfPhsqQibpJb0cPmA5xq8-DWCk9M9UCxpkMZ-7kDgwY_QntkOYdLOjOYgqIya5pD-e-O8kuTl4TP00hGc5D6XOanvYVtR1o4cqgV3ZfBgNAxpImlK1YhgjomJGioNlUbzO" />
+            <div class="space-y-2">
+              <h3 class="font-semibold text-gray-900 dark:text-white">Impact du changement climatique sur les
+                écosystèmes marins</h3>
+              <p class="text-sm text-gray-500 dark:text-gray-400">Pr. S. Dubois | Avril 2024</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="Visualisation de données d'un réseau neuronal" class="w-full h-40 object-cover rounded-lg"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv06bUP115g9WIdNmGHF5F2m8HlGnmerUe-Rp0Cs3rwZL5Lj6btE1B8MOiTjE5PJG5bx72JZls6mr1-cSHvCao4ODr7OrGOy4ebnMS00Aw25g-ATth7cB1Ps_-WRpJwSqyfvhNFK8kZK1wkFBl9FyKRBWAm4V0aAdtRpY8M27G-2LOx5jgNUjZ_H64y2O_9rzxGHByJjKgSLg2OB1yA7B8UCVWTaL2v3zuPsXWcmEBEeWR4Xwr6Je4gZAyJEL4HlVFjLjoHVupTvYc" />
+            <div class="space-y-2">
+              <h3 class="font-semibold text-gray-900 dark:text-white">Optimisation des algorithmes d'apprentissage
+                profond</h3>
+              <p class="text-sm text-gray-500 dark:text-gray-400">Dr. A. Moreau | Mars 2024</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-16 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
+        <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">Ce que disent nos Participants
+        </h2>
+        <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          <div class="flex flex-col items-center text-center">
+            <img alt="Photo de profil de Marie Leclerc" class="w-20 h-20 rounded-full mb-4 object-cover"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeO_dtBucKXqqi5x5dIIyEb1OXxpUrE3wxKPexuDJiuNPzIx_-OYixdG8e5QAPBBxR1SL10_xguMwpnvp1j6a92nrD6obSotV9f2_P505N1UW5ox8bCSs5emLeJEsDfB5e5Ta0M1U6G5VfSo8-TZZJ4CHF3JCs5A57F3ZU7jFkfze036p_ZrAA4r5tRJNS6IGKf3gI_82MGVi4R-S1IF2SHMVWFbEZzXHOlaLAlPDZs3npn8DlnVLMjh8OX2utcwpR56IZsuJz4IUL" />
+            <blockquote class="text-gray-600 dark:text-gray-400">"Ce programme a été une expérience de transformation.
+              J'ai acquis non seulement des connaissances précieuses, mais aussi un réseau de collaborateurs passionnés
+              et inspirants."</blockquote>
+            <p class="mt-4 font-semibold text-gray-800 dark:text-gray-200">Marie Leclerc, Chercheuse Postdoctorale</p>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <img alt="Photo de profil d'Alexandre Martin" class="w-20 h-20 rounded-full mb-4 object-cover"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvL8X9UC8fzaE8d7UhqqAoxWASAYgmPSJxVFfRwIFEINTD7cpngosqE0dmdEuPgJKIKT6tRanzNzMXFZS6g4eJWbveenNSIs41lCSXcOLHpyhqB8ptL_z2PHr-6QpqPkm9j5KED3YgAD5PP5gYz03irX7QA0mGZvZCv-JrZ16EU5HJta97p_BYV9VHwfZfQdRqsak6abwi5-zWAcVRzuGVHyXPHPIYqOX5xlLZXv-bJZ4V8zHuoC4h1UCDxvex_J8RHUgpJ_unvMW4" />
+            <blockquote class="text-gray-600 dark:text-gray-400">"L'atelier sur le leadership m'a donné les outils et la
+              confiance nécessaires pour diriger mon équipe de recherche vers de nouveaux sommets. Hautement
+              recommandé."</blockquote>
+            <p class="mt-4 font-semibold text-gray-800 dark:text-gray-200">Alexandre Martin, Chef de Laboratoire</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-16 mt-20 border-t border-gray-200 dark:border-gray-800">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <span class="material-icons-outlined text-primary dark:text-gray-100">interests</span>
+            <span class="font-bold text-lg text-gray-900 dark:text-white">Site Web</span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400">© 2024 Site Web. Tous droits réservés.</p>
+          <div class="flex space-x-4">
+            <a class="text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">
+              <svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path clip-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  fill-rule="evenodd"></path>
+              </svg>
+              <span class="sr-only">Facebook</span>
+            </a>
+            <a class="text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">
+              <svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                </path>
+              </svg>
+              <span class="sr-only">Twitter</span>
+            </a>
+            <a class="text-gray-400 hover:text-primary dark:hover:text-white transition-colors" href="#">
+              <svg aria-hidden="true" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path clip-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  fill-rule="evenodd"></path>
+              </svg>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-gray-900 dark:text-white">Liens</h3>
+          <ul class="mt-4 space-y-2">
+            <li><a
+                class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+                href="#">Accueil</a></li>
+            <li><a
+                class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+                href="#">Programmes</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-gray-900 dark:text-white">Ressources</h3>
+          <ul class="mt-4 space-y-2">
+            <li><a
+                class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+                href="#">Conférences</a></li>
+            <li><a
+                class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+                href="#">Témoignages</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-gray-900 dark:text-white">Légal</h3>
+          <ul class="mt-4 space-y-2">
+            <li><a
+                class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition-colors"
+                href="#">Politique de Confidentialité</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
